@@ -374,3 +374,5 @@ button[type="submit"] {
 }
 }
 
+div#map {min-height: 360px;}
+
