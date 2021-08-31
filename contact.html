@@ -10,6 +10,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Rosie</title>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+             emailjs.init("user_udtQi2655RVx8mqFusO11");
+             emailjs.send("gmail", "template_mj0jiz4", {
+                name: "Aaron",
+                notes: "The project that I want is..."
+            })
+        })();
+    </script>
+
 </head>
 <body>
     <header>
